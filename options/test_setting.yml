@@ -1,0 +1,30 @@
+name: RDCx4setting1
+suffix: ~  # add suffix to saved images
+model: dssr
+distortion: sr
+scale: 4 # 2
+crop_border: ~  # crop border when evaluation. If None(~), crop the scale pixels
+gpu_ids: [0]
+pca_matrix_path: pca_matrix/pca_matrix.pth
+detail_loss_weight: 1
+datasets:
+  test1:
+    name: Set5G8
+    mode: LQGT
+    dataroot_GT: datasets/Set5G8/HR/x4
+    dataroot_LQ: datasets/Set5G8/LRblur/x4
+    
+#### network structures
+network_G:
+  which_model_G: DSSR
+  setting:
+    inChannels: 128
+    color_channels: 3
+    num_steps: 4
+    feat_blocks: 15
+    refine_blocks: 5
+    scale: 4
+
+path:
+#### path
+  pretrain_model_G: checkpoints/dssr_setting1_x4.pth
