@@ -16,4 +16,10 @@ There are two blind settings mentioned in our paper. For setting1, we synthesize
 
 ```
 For setting2, we using the benchmark DIV2KRK from KernelGAN.
+```
+python test.py -opt=options/test_setting.yml
+```
 ## Train
+```
+python train.py -opt=options/train_setting.yml
+```
