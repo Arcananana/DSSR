@@ -34,8 +34,6 @@ datasets
 |   |── ...
 |── ...
 ```
-```
-
 For setting2, we using the benchmark DIV2KRK from KernelGAN.
 ```
 python test.py -opt=options/test_setting.yml
