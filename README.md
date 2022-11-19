@@ -7,7 +7,7 @@ This is a pytorch implementation of [Learning Detail-Structure Alternative Optim
 + python packages: pip3 install numpy opencv-python lmdb pyyaml
 ## Quick Start
 ```
-python inference.py -input_dir=<> -output_dir=<>
+python inference.py -input_dir=<input_dir> -output_dir=<output_dir>
 ```
 ## Test
 ## Train
