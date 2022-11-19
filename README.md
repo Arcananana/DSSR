@@ -4,7 +4,10 @@ This is a pytorch implementation of [Learning Detail-Structure Alternative Optim
 + python3
 + NVIDIA GPU + CUDA
 + pytorch >= 1.7.1
-+ 
++ python packages: pip3 install numpy opencv-python lmdb pyyaml
 ## Quick Start
-## Train
+```
+python inference.py -input_dir=<> -output_dir=<>
+```
 ## Test
+## Train
