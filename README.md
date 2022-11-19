@@ -13,7 +13,12 @@ python inference.py -input_dir=<your_input_dir> -output_dir=<your_output_dir>
 ## Test
 There are two blind settings mentioned in our paper. For setting1, we synthesize the *Gaussian8* datasets using `scripts/generate_mod_blur_LR_bic.py` with five datasets: Set5, Set14, BSD100, Urban100, Manga109. You should first put them into `datasets` folder like this 
 ```
-
+datasets
+|-- Set5
+|   |-- ...
+|-- Set14
+|   |-- ...
+|-- ...
 ```
 For setting2, we using the benchmark DIV2KRK from KernelGAN.
 ```
