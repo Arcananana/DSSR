@@ -106,7 +106,7 @@ def generate_mod_LR_bic(dataset,scale):
 
 if __name__ == "__main__":
     scales=[2,3,4]
-    datasets=['B100','Urban100','Manga109']
+    datasets=['Set5','Set14','B100','Urban100','Manga109']
     for scale in scales:
         for dataset in datasets:
             generate_mod_LR_bic(dataset,scale)
