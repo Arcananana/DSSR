@@ -1,6 +1,6 @@
 # DSSR
 This is a pytorch implementation of [Learning Detail-Structure Alternative Optimization for Blind Super-Resolution](https://ieeexplore.ieee.org/abstract/document/9721549).
-This repo is built on the basis of DAN[https://github.com/greatlog/DAN], thanks for their open-sourcing!
+This repo is built on the basis of [DAN](https://github.com/greatlog/DAN), thanks for their open-sourcing!
 ## Requirement
 + python3
 + NVIDIA GPU + CUDA
@@ -41,7 +41,7 @@ Download the [DIV2K] (https://data.vision.ee.ethz.ch/cvl/DIV2K/) and [Flickr2K](
 python train.py -opt=options/train_setting.yml
 ```
 ## Citation
-If you find this repo useful, please consider cite our work:
+If you find this repo useful, please consider citing our work:
 ```
 @ARTICLE{9721549,
   author={Li, Feng and Wu, Yixuan and Bai, Huihui and Lin, Weisi and Cong, Runmin and Zhang, Chunjie and Zhao, Yao},
