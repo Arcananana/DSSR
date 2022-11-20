@@ -36,7 +36,7 @@ Modify the dataset path and test settings in `options/test_setting.yml` and run 
 python test.py -opt=options/test_setting.yml
 ```
 ## Train
-Download the [DIV2K] (https://data.vision.ee.ethz.ch/cvl/DIV2K/) and [Flickr2K](http://cv.snu.ac.kr/research/EDSR/Flickr2K.tar) and merge it into one folder. Modify `options/train_setting.yml` and run the following command
+Download the [DIV2K](https://data.vision.ee.ethz.ch/cvl/DIV2K/) and [Flickr2K](http://cv.snu.ac.kr/research/EDSR/Flickr2K.tar) and merge it into one folder. Modify `options/train_setting.yml` and run the following command
 ```
 python train.py -opt=options/train_setting.yml
 ```
