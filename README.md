@@ -7,7 +7,7 @@ This repo is built on the basis of [DAN](https://github.com/greatlog/DAN), thank
 + pytorch >= 1.7.1
 + python packages: pip3 install numpy opencv-python lmdb pyyaml
 ## Quick Start
-Download the pretrained models at [百度网盘](https://pan.baidu.com/s/1J11LyvdSWsiYZfia1a6YVw?pwd=dssr) and put them into `checkpoints` folder. For different settings, you may still have to modify the `options/test_setting.yml`.
+Download the [pretrained models](https://pan.baidu.com/s/1J11LyvdSWsiYZfia1a6YVw?pwd=dssr) and put them into `checkpoints` folder. For different settings, you may still have to modify the `options/test_setting.yml`.
 ```
 python inference.py -input_dir=<your_input_dir> -output_dir=<your_output_dir>
 ```
